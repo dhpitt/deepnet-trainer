@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "deepnet-trainer"
+version = "0.1.0"
+description = ""
+authors = ["dhpitt <david.h.pitt@gmail.com>"]
+readme = "README.md"
+packages = [{include = "deepnet_trainer"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+configmypy = "^0.1.0"
+torch = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
